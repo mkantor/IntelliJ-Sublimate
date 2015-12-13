@@ -62,12 +62,12 @@
   </action>
   <action id="GoToClass" />
   <action id="GotoAction">
+    <keyboard-shortcut first-keystroke="shift meta P" />
     <keyboard-shortcut first-keystroke="shift meta A" />
-    <keyboard-shortcut first-keystroke="meta P" />
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift meta N" />
-    <keyboard-shortcut first-keystroke="meta T" />
+    <keyboard-shortcut first-keystroke="meta P" />
   </action>
   <action id="GotoLine">
     <keyboard-shortcut first-keystroke="meta L" />
@@ -125,4 +125,3 @@
   <action id="Uml.ShowDiff" />
   <action id="Vcs.UpdateProject" />
 </keymap>
-
