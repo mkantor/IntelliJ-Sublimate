@@ -1,26 +1,23 @@
 IntelliJ-Sublimate
 ==================
 
-A (sane) Sublime / TextMate inspired keymap for IntelliJ12
+A (sane) Sublime / TextMate inspired keymap for IntelliJ 15
 
 ## Notes
 
 * I haven't tested this on previous versions of IntelliJ
 * Keymap only setup for OSX at this time
-* Color Scheme `colors/SubliMate.xml` is optional and simply adds a line highlight to the default theme **Darcula**
-
-![SubliMate Color Scheme Screenshot](https://raw.github.com/ProLoser/IntelliJ-Sublimate/master/screenshot.png)
 
 
 ## Installation
 
 ### Import
 
-File > Import Settings > [[Select SubliMate.jar](https://github.com/ProLoser/IntelliJ-Sublimate/raw/master/SublimMate.jar)]
+Copy the `SubliMate.xml` files to their respective directories in `~/Library/Preferences/IntelliJIdea*/`. For example:
 
-_-- or --_
-
-Copy the `SubliMate.xml` files to their respective directories in `~/Library/Preferences/IntelliJIdea12`
+```bash
+$ cp ./keymaps/SubliMate.xml ~/Library/Preferences/IntelliJIdea15/keymaps/
+```
 
 ### Enable
 
