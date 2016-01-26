@@ -1,82 +1,86 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <keymap version="1" name="SubliMate" parent="Mac OS X">
   <action id="ChangesView.Commit">
-    <keyboard-shortcut first-keystroke="shift meta C" />
+    <keyboard-shortcut first-keystroke="shift meta c" />
   </action>
   <action id="CheckinProject" />
   <action id="ClassTemplateNavigation" />
   <action id="CloseAllEditors">
-    <keyboard-shortcut first-keystroke="meta alt W" />
+    <keyboard-shortcut first-keystroke="meta alt w" />
   </action>
   <action id="CloseAllEditorsButActive">
-    <keyboard-shortcut first-keystroke="shift meta alt W" />
+    <keyboard-shortcut first-keystroke="shift meta alt w" />
   </action>
   <action id="CloseContent">
-    <keyboard-shortcut first-keystroke="meta F4" />
-    <keyboard-shortcut first-keystroke="meta W" />
+    <keyboard-shortcut first-keystroke="meta f4" />
+    <keyboard-shortcut first-keystroke="meta w" />
   </action>
+  <action id="CompareTwoFiles" />
   <action id="Console.History.Next" />
   <action id="Console.Jdbc.Close">
-    <keyboard-shortcut first-keystroke="shift meta F4" />
+    <keyboard-shortcut first-keystroke="shift meta f4" />
   </action>
   <action id="Console.Jpa.Close">
-    <keyboard-shortcut first-keystroke="shift meta F4" />
+    <keyboard-shortcut first-keystroke="shift meta f4" />
   </action>
   <action id="DSM.Close">
-    <keyboard-shortcut first-keystroke="shift meta F4" />
+    <keyboard-shortcut first-keystroke="shift meta f4" />
   </action>
+  <action id="Diff.ShowDiff" />
   <action id="DumpLookupElementWeights" />
   <action id="EditorCutLineEnd">
-    <keyboard-shortcut first-keystroke="meta BACK_SPACE" />
+    <keyboard-shortcut first-keystroke="meta back_space" />
   </action>
   <action id="EditorDeleteLine">
-    <keyboard-shortcut first-keystroke="meta Y" />
-    <keyboard-shortcut first-keystroke="meta K" />
+    <keyboard-shortcut first-keystroke="meta y" />
+    <keyboard-shortcut first-keystroke="meta k" />
   </action>
+  <action id="EditorDuplicate" />
   <action id="EditorDuplicateLines">
-    <keyboard-shortcut first-keystroke="shift meta D" />
+    <keyboard-shortcut first-keystroke="shift meta d" />
   </action>
   <action id="EditorSelectWord" />
   <action id="EditorUnSelectWord" />
+  <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.TogglePathShowing" />
   <action id="FileStructurePopup">
-    <keyboard-shortcut first-keystroke="meta F12" />
-    <keyboard-shortcut first-keystroke="shift meta T" />
+    <keyboard-shortcut first-keystroke="meta f12" />
+    <keyboard-shortcut first-keystroke="shift meta t" />
   </action>
   <action id="FindInPath">
-    <keyboard-shortcut first-keystroke="shift control F" />
-    <keyboard-shortcut first-keystroke="shift meta F" />
+    <keyboard-shortcut first-keystroke="shift ctrl f" />
+    <keyboard-shortcut first-keystroke="shift meta f" />
   </action>
   <action id="FindNext">
-    <keyboard-shortcut first-keystroke="F3" />
-    <keyboard-shortcut first-keystroke="control L" />
-    <keyboard-shortcut first-keystroke="meta G" />
+    <keyboard-shortcut first-keystroke="f3" />
+    <keyboard-shortcut first-keystroke="ctrl l" />
+    <keyboard-shortcut first-keystroke="meta g" />
   </action>
   <action id="FindPrevious">
-    <keyboard-shortcut first-keystroke="shift F3" />
-    <keyboard-shortcut first-keystroke="shift control L" />
-    <keyboard-shortcut first-keystroke="shift meta G" />
+    <keyboard-shortcut first-keystroke="shift f3" />
+    <keyboard-shortcut first-keystroke="shift ctrl l" />
+    <keyboard-shortcut first-keystroke="shift meta g" />
   </action>
   <action id="Git.Revert">
-    <keyboard-shortcut first-keystroke="meta R" />
+    <keyboard-shortcut first-keystroke="meta r" />
   </action>
   <action id="GoToClass" />
   <action id="GotoAction">
-    <keyboard-shortcut first-keystroke="shift meta P" />
-    <keyboard-shortcut first-keystroke="shift meta A" />
+    <keyboard-shortcut first-keystroke="shift meta p" />
+    <keyboard-shortcut first-keystroke="shift meta a" />
   </action>
   <action id="GotoFile">
-    <keyboard-shortcut first-keystroke="shift meta N" />
-    <keyboard-shortcut first-keystroke="meta P" />
+    <keyboard-shortcut first-keystroke="shift meta n" />
+    <keyboard-shortcut first-keystroke="meta p" />
   </action>
   <action id="GotoLine">
-    <keyboard-shortcut first-keystroke="meta L" />
-    <keyboard-shortcut first-keystroke="control G" />
+    <keyboard-shortcut first-keystroke="meta l" />
+    <keyboard-shortcut first-keystroke="ctrl g" />
   </action>
   <action id="GotoRow">
-    <keyboard-shortcut first-keystroke="meta L" />
-    <keyboard-shortcut first-keystroke="control G" />
+    <keyboard-shortcut first-keystroke="meta l" />
+    <keyboard-shortcut first-keystroke="ctrl g" />
   </action>
+  <action id="GotoSuperMethod" />
   <action id="GotoTest" />
   <action id="GuiDesigner.ExpandSelection" />
   <action id="GuiDesigner.ShrinkSelection" />
@@ -84,44 +88,53 @@
   <action id="IntroduceField" />
   <action id="ParameterInfo" />
   <action id="PinActiveTab">
-    <keyboard-shortcut first-keystroke="shift meta P" />
+    <keyboard-shortcut first-keystroke="shift meta p" />
   </action>
   <action id="ReopenClosedTab">
-    <keyboard-shortcut first-keystroke="shift meta W" />
+    <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
   <action id="Replace">
-    <keyboard-shortcut first-keystroke="meta R" />
-    <keyboard-shortcut first-keystroke="meta alt F" />
+    <keyboard-shortcut first-keystroke="meta r" />
+    <keyboard-shortcut first-keystroke="meta alt f" />
   </action>
   <action id="ReplaceInPath">
-    <keyboard-shortcut first-keystroke="shift control R" />
-    <keyboard-shortcut first-keystroke="shift meta R" />
-    <keyboard-shortcut first-keystroke="shift meta alt F" />
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+    <keyboard-shortcut first-keystroke="shift meta r" />
+    <keyboard-shortcut first-keystroke="shift meta alt f" />
   </action>
   <action id="Scala.RenameJavaToScala" />
   <action id="Scala.RunConsole" />
   <action id="Scala.ShowImplicitParameters" />
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="meta d" />
+  </action>
+  <action id="SendEOF" />
+  <action id="ShelvedChanges.Diff" />
   <action id="StructuralSearchPlugin.StructuralReplaceAction" />
   <action id="SurroundWith">
-    <keyboard-shortcut first-keystroke="meta alt T" />
-    <keyboard-shortcut first-keystroke="shift control W" />
+    <keyboard-shortcut first-keystroke="meta alt t" />
+    <keyboard-shortcut first-keystroke="shift ctrl w" />
   </action>
   <action id="SwitchApply">
-    <keyboard-shortcut first-keystroke="control alt ENTER" />
+    <keyboard-shortcut first-keystroke="ctrl alt enter" />
   </action>
   <action id="SwitchDown">
-    <keyboard-shortcut first-keystroke="control alt DOWN" />
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
   </action>
   <action id="SwitchLeft">
-    <keyboard-shortcut first-keystroke="control alt LEFT" />
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
   </action>
   <action id="SwitchRight">
-    <keyboard-shortcut first-keystroke="control alt RIGHT" />
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
   </action>
   <action id="SwitchUp">
-    <keyboard-shortcut first-keystroke="control alt UP" />
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
   <action id="TagDocumentationNavigation" />
   <action id="Uml.ShowDiff" />
+  <action id="UnselectPreviousOccurrence">
+    <keyboard-shortcut first-keystroke="meta u" />
+  </action>
   <action id="Vcs.UpdateProject" />
+  <action id="openAssertEqualsDiff" />
 </keymap>
