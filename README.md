@@ -1,7 +1,7 @@
 IntelliJ-Sublimate
 ==================
 
-A (sane) Sublime / TextMate inspired keymap for IntelliJ 15
+A (sane) Sublime / TextMate inspired keymap for IntelliJ 15, based on <https://github.com/ProLoser/IntelliJ-SubliMate>.
 
 ## Notes
 
